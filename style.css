@@ -1,0 +1,105 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.padd
+{
+  margin-left: 25px;
+}   
+.mymargin 
+{
+    margin: 25px;
+    padding-left: 45px;
+}
+.footerDiv
+{
+    background-color: #cffff7;
+    height: 45px;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+}
+body{
+  
+    margin: 0;
+      width: 100%;
+      height: 100vh;
+    background: linear-gradient(-45deg, #26ec62, #032852, rgb(0, 110, 255), #024b39);
+      background-size: 400% 400%;
+      -webkit-animation: gradientBG 7s ease initial;
+              animation: gradientBG 7s ease infinite; 
+  }
+  @keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.form-font-cust{
+  text-decoration: none;
+  color: white;
+  text-shadow: 0 0 5px rgb(111, 112, 117), 0 0 5px rgb(89, 89, 100);
+}
+.padd{
+  margin-bottom: 45px;
+}
+
+.form-content
+{
+  padding: 5%;
+  border: 1px solid #ced4da;
+  margin-bottom: 2%;
+}
+.form-control{
+  border-radius:1rem;
+}
+.btnSubmit
+{
+  border:none;
+  border-radius:1.5rem;
+  padding: 1%;
+  width: 20%;
+  cursor: pointer;
+  background: #801204;
+  color: #fff;
+}
+
+.card {
+   margin-top:10px;
+    margin-bottom:10px;
+    background-color: beige;
+    border: 1.5px solid gold;
+    font-family:'Times New Roman', Times, serif
+    }
+  
+.card:hover {
+    box-shadow: 0 5px 5px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    ;
+  }
+  .card > .card-inner {
+    padding:10px;
+  }
+  .card .header h5 {
+    margin-bottom: 0px;
+    margin-top:0px;
+    text-transform: uppercase;
+  }
+  .card .header {
+    margin-bottom:5px;
+  }
+  .card img{
+    width:100%;
+  }
+
+  .card a{
+      text-decoration: none;
+      color: black;
+  }
+  
